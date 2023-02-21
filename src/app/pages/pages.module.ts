@@ -8,12 +8,13 @@ import {RouterModule} from "@angular/router";
 import { PowerpointComponent } from './powerpoint/powerpoint.component';
 import { WordComponent } from './word/word.component';
 import { PdfComponent } from './mspdf/pdf.component';
+import { InicioComponent } from './inicio/inicio.component';
 
 
 
 @NgModule({
-  declarations: [ AccesibilidadComponent, AudioLibrosComponent,PagesComponent, PowerpointComponent, WordComponent, PdfComponent,],
-  exports:[AccesibilidadComponent, AudioLibrosComponent,PagesComponent, PowerpointComponent, WordComponent, PdfComponent,],
+  declarations: [ AccesibilidadComponent, AudioLibrosComponent,PagesComponent, PowerpointComponent, WordComponent, PdfComponent, InicioComponent,],
+  exports:[AccesibilidadComponent, AudioLibrosComponent,PagesComponent, PowerpointComponent, WordComponent, PdfComponent, InicioComponent,],
   imports: [
     CommonModule,SharedModule,RouterModule
   ]
